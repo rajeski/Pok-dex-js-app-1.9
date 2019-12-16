@@ -1,41 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pokemon-san List</title>
-  <link rel="stylesheet" href="css.styles.min.css">
-</head>
-<body>
-  <header class="header-body">
-    <h1 class="header-title">Pokemon List</h1>
-  </header>
-  <ul class="pokemon-list"></ul>
-
-  <div class="overlay">
-    <div class='modal'>
-      <button class="modal-close">X</button>
-
-      <hr>
-      <div class="pokemon-info">
-        <div class="img-div">
-          <img class="pokemon-img" src="">
-        </div>
-      </div>
-      <div class="modal-details">
-        <p class="weight">Weight: <span class="pokemon-weight"></span></p>
-        <br>
-        <p class="height">Height: <span class="pokemon-height"></span></p>
-        <br>
-        <p class="type">Type: <span class="pokemon-type"></span></p>
-      </div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple JS App</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+      <ul class="pokemon-list"></ul>
+      <div class="overlay">
+      <div class='modal'>
+      <button class="modal-close">Close</button>
+      <h1 class="pokemon-name"></h1>
+      <img class="pokemon-img" src="" alt="">
+      <p class="height">Height: <span class="pokemon-height"></span></p>
     </div>
   </div>
-  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/promise-polyfill.js">
   </script>
-   <script src="dist/script.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
-  </html>
-
+</html>
